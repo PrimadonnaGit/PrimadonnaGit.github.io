@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-**TeamCracker** 입니다.
+<h2>**TeamCracker** 입니다.</h2>

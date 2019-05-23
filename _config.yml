@@ -4,16 +4,16 @@ gems:
   - jekyll-paginate
 exclude:
   - /vendor/
-title: Primadonna
-subtitle: Cracker 기술 블로그
+title: Cracker
+subtitle: Know yourself. Face fear. Follow heart and Make Change
 email: jwhyun2215@gmail.com
 name: Hyun Jinwoo
 description: |
-  Know yourself. Face fear. Follow heart and Make change.
+  Know yourself. Face fear. Follow heart and Make Change
 baseurl: /
 url: 'https://github.com/PrimadonnaGit/PrimadonnaGit.github.io'
 cover: /assets/header_image.jpg
-logo: /assets/logo.png
+logo: /assets/cracker_logo.png
 markdown: kramdown
 paginate: 5
 paginate_path: '/page:num/'
@@ -37,6 +37,6 @@ social:
     share: false
 protocols:
   fb_image: /assets/cracker_logo.png
-  fb_image_width: 1200
-  fb_image_height: 1200
+  fb_image_width: 612
+  fb_image_height: 605
   fb_image_type: image/png
