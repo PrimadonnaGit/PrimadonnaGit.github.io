@@ -37,6 +37,6 @@ social:
     share: false
 protocols:
   fb_image: /assets/cracker_logo.png
-  fb_image_width: 612
-  fb_image_height: 605
+  fb_image_width: 1200
+  fb_image_height: 1200
   fb_image_type: image/png
