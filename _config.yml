@@ -1,0 +1,46 @@
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-paginate
+exclude:
+  - /vendor/
+title: Primadonna
+subtitle: Cracker 기술 블로그
+email: jwhyun2215@gmail.com
+name: Hyun Jinwoo
+description: |
+  A simple yet classy theme for your Jekyll website or blog.
+baseurl: /primadonna
+url: 'https://github.com/PrimadonnaGit/PrimadonnaGit.github.io'
+cover: /assets/header_image.jpg
+logo: /assets/logo.png
+markdown: kramdown
+paginate: 5
+paginate_path: '/page:num/'
+inter_post_navigation: false
+highlightjs_theme: monokai-sublime
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+descriptions: []
+social:
+  - name: GitHub
+    icon: github
+    username: primadonna
+    url: 'https://github.com/PrimadonnaGit/PrimadonnaGit.github.io'
+    desc: Fork me on GitHub
+    share: false
+protocols:
+  fb_image: /assets/logo.png
+  fb_image_width: 612
+  fb_image_height: 605
+  fb_image_type: image/png
+  twitter_image: /assets/logo.png
+  os_repo: 'https://github.com/bencentra/centrarium.com'
+  os_rcs_type: git
+  os_src: 'git@github.com:bencentra/centrarium.com.git'
