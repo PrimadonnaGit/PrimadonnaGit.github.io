@@ -10,7 +10,7 @@ email: jwhyun2215@gmail.com
 name: Hyun Jinwoo
 description: |
   A simple yet classy theme for your Jekyll website or blog.
-baseurl: /primadonna
+baseurl: /
 url: 'https://github.com/PrimadonnaGit/PrimadonnaGit.github.io'
 cover: /assets/header_image.jpg
 logo: /assets/logo.png
