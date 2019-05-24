@@ -2,7 +2,7 @@ gems:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate
-  - 'jekyll-admin'
+  - jekyll-admin
 exclude:
   - /vendor/
 title: Cracker
