@@ -3,6 +3,10 @@
 .editorconfig
 
 # Compiled site
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 
 # Sass garbage
@@ -15,3 +19,4 @@ vendor/
 # Gem
 Gemfile
 Gemfile.lock
+
