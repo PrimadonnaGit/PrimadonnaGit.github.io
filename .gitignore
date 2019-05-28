@@ -1,7 +1,9 @@
 .DS_Store
+.gitignore
+.editorconfig
 
 # Compiled site
-_site
+
 
 # Sass garbage
 .sass-cache
@@ -9,3 +11,7 @@ _site
 # Bundler
 .bundle/
 vendor/
+
+# Gem
+Gemfile
+Gemfile.lock
