@@ -1,10 +1,8 @@
 # TeamCracker Technology Blog
 
-Member
+## Member
 
 * Jinwoo Hyun
 * Ina Jung 
 * Youndo Jung
 * Soyoung Park
-
-jinwoo push
