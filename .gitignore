@@ -17,7 +17,3 @@ _site/
 .ruby-version
 vendor/
 
-# Gem
-Gemfile
-Gemfile.lock
-
