@@ -8,6 +8,7 @@ gems:
 exclude:
   - "/vendor/"
 
+#1111
 # Site settings
 title: We are Cracker
 subtitle: "크래커 기술 블로그"
