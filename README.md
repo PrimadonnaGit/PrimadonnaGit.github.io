@@ -6,3 +6,5 @@ Member
 * Ina Jung 
 * Youndo Jung
 * Soyoung Park
+
+jinwoo push
