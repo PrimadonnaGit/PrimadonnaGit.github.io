@@ -1,0 +1,17 @@
+.DS_Store
+
+.editorconfig
+
+# Compiled site
+
+
+# Sass garbage
+.sass-cache
+
+# Bundler
+.bundle/
+vendor/
+
+# Gem
+Gemfile
+Gemfile.lock
