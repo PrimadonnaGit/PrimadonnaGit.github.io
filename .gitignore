@@ -15,8 +15,3 @@ _site/
 # Bundler
 .bundle/
 vendor/
-
-# Gem
-Gemfile
-Gemfile.lock
-
