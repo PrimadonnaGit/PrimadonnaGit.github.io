@@ -2,7 +2,7 @@
 title: Android Splash Page
 layout: post
 categories: android
-author: ina jung
+author: Ina Jung
 date: '2019-05-28 00:00:00'
 tags: splash
 ---

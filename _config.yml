@@ -8,6 +8,7 @@ gems:
 exclude:
   - "/vendor/"
 
+excerpt_separator: ""
 # Site settings
 title: We are Cracker
 subtitle: "크래커 기술 블로그"
@@ -24,6 +25,11 @@ url: "http://PrimadonnaGit.github.io" # the base hostname & protocol for your si
 cover: "/assets/header_image.jpg"
 logo: "/assets/cracker_logo.png"
 
+collections:
+  authors:
+    title: Authors
+    output: true
+
 # Build settings
 markdown: kramdown
 paginate: 5
@@ -37,11 +43,13 @@ jekyll-archives:
     - categories
     - subcats
     - tags
+    - authors
   layout: 'archive'
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
     subcats: '/subcats/:name/'
+    author: '/authors/:name/'
     
 # Disqus comments
 # disqus_shortname: bencentra

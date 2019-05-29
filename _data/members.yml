@@ -1,6 +1,6 @@
 # Members
 
-- name: Hyun Jinwoo
+- name: Jinwoo Hyun
   role: Data Scientist / DeepLearning Researcher
   img: /assets/profile-jinwoo.jpg
   github: PrimadonnaGit
@@ -8,7 +8,7 @@
   url: http://PrimadonnaGit.github.io/
   visible: true
    
-- name: Park Soyoung
+- name: Soyoung Park
   role: Data Scientist / Fasion Designer
   img: /assets/profile-soyoung.jpg
   github: sy316.p
@@ -16,7 +16,7 @@
   url: http://davidbrough.net 
   visible: true
   
-- name: Jeong Yoondo
+- name: Yundo Jung
   role: Materials Informatics
   img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
   github: jeongyundo

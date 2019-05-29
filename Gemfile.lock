@@ -9,10 +9,13 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7-java)
     eventmachine (1.2.7-x64-mingw32)
+    ffi (1.11.1-java)
     ffi (1.11.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
+    http_parser.rb (0.6.0-java)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jekyll (3.8.5)
@@ -83,6 +86,7 @@ GEM
     tilt (2.0.9)
 
 PLATFORMS
+  java
   x64-mingw32
 
 DEPENDENCIES
