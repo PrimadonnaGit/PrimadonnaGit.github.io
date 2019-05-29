@@ -21,7 +21,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://PrimadonnaGit.github.io" # the base hostname & protocol for your site
-cover: "/assets/cover.jpg"
+cover: "/assets/header_image.jpg"
 logo: "/assets/cracker_logo.png"
 
 # Build settings
