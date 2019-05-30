@@ -22,7 +22,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://PrimadonnaGit.github.io" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/cover.jpg"
 logo: "/assets/cracker_logo.png"
 
 collections:
@@ -36,6 +36,25 @@ paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
+
+# default
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      gnav: ""
+  -
+    scope:
+      path: ""
+      type: "posts" 
+    values:
+      layout: "post"
+      categories: ""
+      author: ""
+      tags: ""
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
