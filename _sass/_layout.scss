@@ -194,6 +194,18 @@ pre code.hljs {
 *	Body
 */
 .page-content {
+	.wrapper-sidebar {
+		@include outer-container;
+    float: left;
+		margin-left: 5%;
+		padding: 1em;
+	}
+	.wrapper-project {
+		@include outer-container;
+		max-width: 70em;
+		margin-right: 5%;
+		padding: 1em;
+	}
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
