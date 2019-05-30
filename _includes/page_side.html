@@ -4,9 +4,32 @@
         padding: 20px;
         margin-bottom: 20px;
         border: 2px solid #bcbcbc;
+        border-bottom-style: None;
+        border-left-style: None;
+        border-top-style: None;
+           
     }
+    .sidebar-fixed {
+        position: fixed;
+		 top: 10px;
+	}
 
 </style>
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        var jbOffset = $( '#sidebar' ).offset();
+        $( window ).scroll( function() {
+          if ( $( document ).scrollTop() > jbOffset.top ) {
+            $( '#sidebar' ).addClass( 'sidebar-fixed' );
+          }
+          else {
+            $( '#sidebar' ).removeClass( 'sidebar-fixed' );
+          }
+        });
+      } );
+</script>
 
 <div id="sidebar">
  <div id="toc">

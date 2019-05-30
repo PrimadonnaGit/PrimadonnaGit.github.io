@@ -22,7 +22,15 @@ subtitle: We are Cracker!
 	</br>
 	
 	{% if member.github %} 
-	<span class="social-share-github"><a href="https://github.com/{{ member.github }}" title="Github">Github</a></span> 
+	<i class="fa fa-github"></i>
+	<span class="social-share-github"><a href="https://github.com/{{ member.github }}" title="Github">Github</a></span>
+	&nbsp; &nbsp; 
+	{% endif %}
+	
+	{% if member.linkedin %} 
+	<i class="fa fa-linkedin"></i>
+	<span class="social-share-linkedin"><a href="https://github.com/{{ member.github }}" title="Linkedin">Linkedin</a></span> 
+	&nbsp; &nbsp;
 	{% endif %}
 	
 	<hr>
