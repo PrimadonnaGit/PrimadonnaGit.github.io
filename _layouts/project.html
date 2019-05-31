@@ -2,6 +2,7 @@
 layout: default_nofoot
 ---
 
+
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
@@ -11,10 +12,10 @@ layout: default_nofoot
   </div>
 </div>
 
-<div class="content">
-<div class="wrapper-sidebar">
+<article class="articles">
+<aside class="read-more">
   {% include page_side.html %}
-</div>
+</aside>
 
 <div class="wrapper-project">
   <div class="page">
@@ -26,5 +27,8 @@ layout: default_nofoot
     </div>
   </div>
 </div>
-</div>
+</article>
 
+<script src="/js/modernizr.js"></script>
+<script src="/js/jquery-2.1.4.js"></script>
+<script src="/js/main.js"></script>
