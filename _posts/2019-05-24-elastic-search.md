@@ -4,7 +4,7 @@ layout: post
 date: '2019-05-24 17:43:59'
 author: Yundo Jung
 categories: elasticsearch
-tags: ElasticSearch
+tags: ElasticSearch FinalProject
 ---
 
 Elastic Search post

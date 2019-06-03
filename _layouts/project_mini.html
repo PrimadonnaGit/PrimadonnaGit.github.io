@@ -1,0 +1,34 @@
+---
+layout: default_nofoot
+---
+
+
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+    <header class="site-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="info"><strong>{{ page.subtitle }}</strong></p>
+    </header>
+  </div>
+</div>
+
+<article class="articles">
+<aside class="read-more">
+  {% include page_side_mini.html %}
+</aside>
+
+<div class="wrapper-project">
+  <div class="page">
+  <!-- Main Content -->
+    <div class="container">
+	    <div class="row">
+			    {{ content }}
+	    </div>
+    </div>
+  </div>
+</div>
+</article>
+
+<script src="/js/modernizr.js"></script>
+<script src="/js/jquery-2.1.4.js"></script>
+<script src="/js/main.js"></script>

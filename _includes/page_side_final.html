@@ -1,0 +1,10 @@
+
+<div id="sidebar">
+    <ul>
+        {% for tag in site.tags.FinalProject %}
+                <li>
+                    <a href="#{{tag.title}}">{{ tag.title }}</a>
+                </li>
+        {% endfor %}
+    </ul>
+</div>
