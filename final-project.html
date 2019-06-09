@@ -4,11 +4,15 @@ layout: project_final
 gnav: 3
 subtitle: Just, Take Photo and Get Result
 ---
+<video autoplay="autoplay" loop="loop" width="768" height="512" controls>
+  <source src="/assets/finalvideo.mp4" type="video/mp4">
+</video>
 
 <div class="post">
   {% for tag in site.tags.FinalProject %}
     <li>
       <strong>
+      
         <div id="{{ tag.title }}">{{ tag.title }}</div>
       </strong>
     </li>
