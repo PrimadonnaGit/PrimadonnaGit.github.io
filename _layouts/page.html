@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" 
-{% if page.title=='About Team' %}style="background-image: url({{ /assets/about.jpeg | prepend: site.baseurl }});"
-{% else if page.title=='Members' %}style="background-image: url({{ /assets/memberimg.png | prepend: site.baseurl }});"
+{% if {{page.title}}=='About Team' %}style="background-image: url({{ /assets/about.jpeg | prepend: site.baseurl }});"
+{% else if {{page.title}}=='Members' %}style="background-image: url({{ /assets/memberimg.png | prepend: site.baseurl }});"
 {% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
